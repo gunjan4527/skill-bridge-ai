@@ -1,0 +1,25 @@
+{
+  "name": "skill-bridge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://gunjan4527.github.io/skill-bridge-ai/",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "lucide-react": "^0.542.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.1.11",
+    "vite": "^5.4.10"
+  }
+}
